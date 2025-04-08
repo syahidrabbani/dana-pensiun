@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asuransi Dana Pensiun - Taspen Life</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="relative bg-blue-900 text-white py-20">
+    <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d4?auto=format&fit=crop&w=1200&q=80');"></div>
+    <div class="relative max-w-6xl mx-auto px-4 text-center">
+      <h1 class="text-4xl font-extrabold mb-2">Asuransi Dana Pensiun</h1>
+      <p class="text-xl">Perlindungan Masa Depan Bersama Taspen Life</p>
+    </div>
+  </header>
+
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-6">Aman, Terencana, dan Menyejahterakan Masa Depan Karyawan Anda</h2>
+        <p class="mb-6">Asuransi Dana Pensiun adalah bagian dari Employee Benefit yang dirancang untuk menjamin keamanan finansial masa purna tugas karyawan. Bersama Taspen Life, perusahaan Anda bisa memastikan kesejahteraan karyawan secara berkelanjutan.</p>
+        <ul class="space-y-4">
+          <li class="flex items-start"><span class="text-blue-700 mr-2">✔️</span> Meningkatkan loyalitas & produktivitas karyawan</li>
+          <li class="flex items-start"><span class="text-blue-700 mr-2">✔️</span> Kepatuhan terhadap regulasi ketenagakerjaan</li>
+          <li class="flex items-start"><span class="text-blue-700 mr-2">✔️</span> Pengelolaan profesional dan transparan</li>
+        </ul>
+      </div>
+      <img src="https://images.unsplash.com/photo-1588776814546-ec9e4426de65?fit=crop&w=800&q=80" alt="Dana Pensiun" class="rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  <section class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-10 text-center">Skema Program Taspen Life</h3>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="bg-gray-50 p-6 rounded-xl shadow">
+          <h4 class="font-semibold mb-4 text-lg">Fitur Utama</h4>
+          <ul class="space-y-3">
+            <li>📌 Jaminan Hari Tua (JHT & THT)</li>
+            <li>📌 Asuransi Kesehatan Pensiun (Prokespen)</li>
+            <li>📌 Asuransi Kecelakaan & Kematian</li>
+            <li>📌 Asuransi Jabatan Direksi & Manajemen</li>
+          </ul>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl shadow">
+          <h4 class="font-semibold mb-4 text-lg">Keunggulan Program</h4>
+          <ul class="space-y-3">
+            <li>✅ Fleksibel sesuai kebutuhan perusahaan</li>
+            <li>✅ Sesuai Perjanjian Kerja Bersama (PKB)</li>
+            <li>✅ Mengacu pada UU No. 13/2003 & PSAK 24</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-6">Kenapa Memilih Taspen Life?</h3>
+      <p class="mb-8">Taspen Life telah dipercaya oleh berbagai institusi dengan berbagai penghargaan dan rating keuangan yang sangat baik.</p>
+      <div class="grid md:grid-cols-2 gap-6 text-left text-sm">
+        <ul class="list-disc list-inside">
+          <li>PEFINDO Rating idA-/Stable</li>
+          <li>Audit Keuangan SEHAT sejak 2014</li>
+          <li>Top GRC Awards - Star 4</li>
+        </ul>
+        <ul class="list-disc list-inside">
+          <li>Infobank Digital Brand Award</li>
+          <li>Investor Daily Best Insurance Award</li>
+          <li>Pengalaman mengelola manfaat pensiun</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-blue-800 text-white py-16">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4">Konsultasikan Sekarang</h3>
+      <p class="mb-6">Kami siap membantu merancang program Dana Pensiun terbaik untuk perusahaan Anda.</p>
+      <form class="bg-white text-gray-800 p-6 rounded-xl shadow-lg max-w-md mx-auto space-y-4">
+        <input type="text" placeholder="Nama Anda" class="w-full p-3 rounded border border-gray-300">
+        <input type="email" placeholder="Email Perusahaan" class="w-full p-3 rounded border border-gray-300">
+        <input type="text" placeholder="Nomor Kontak" class="w-full p-3 rounded border border-gray-300">
+        <textarea placeholder="Pesan atau kebutuhan Anda" class="w-full p-3 rounded border border-gray-300"></textarea>
+        <button class="bg-blue-700 text-white px-6 py-3 rounded font-semibold hover:bg-blue-600">Kirim Konsultasi</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white text-center py-8 text-sm">
+    <div class="mb-2">&copy; 2025 PT Asuransi Jiwa Taspen. All Rights Reserved.</div>
+    <div class="flex justify-center space-x-6">
+      <a href="#" class="hover:underline">Facebook</a>
+      <a href="#" class="hover:underline">Instagram</a>
+      <a href="#" class="hover:underline">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
